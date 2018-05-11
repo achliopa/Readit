@@ -11,7 +11,8 @@
     "win": "electron-builder -w",
     "linux": "electron-builder -l",
     "build": "electron-build -mwl",
-    "make-cert": "electron-builder create-self-signed-cert -p stackacademy"
+    "make-cert": "electron-builder create-self-signed-cert -p stackacademy",
+    "publish": "electron-builder -l -p onTagOrDraft"
   },
   "build": {
     "appId": "com.stackacademy.readdit",
